@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 14px Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper-container {
+  height: 100vh;
+  background: #282a36;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-container .content-container{
+  width: 320px;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-container .content-container .group {
+  margin-bottom: 20px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-container .content-container .group label {
+  margin-bottom: 16px;
+  color: #f8f8f2;
+} 
+
+.wrapper-container .content-container .group label .content {
+  display: flex;
+  height: 46px;
+  margin-top: 8px;
+  padding: 16px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  background: #f8f8f2;
+  color: #44475a;
+}
+
+.wrapper-container .content-container .group input::placeholder {
+  color: #44475a;
+}
+
+.wrapper-container .content-container span {
+  margin-bottom: 8px;
+  color: #f8f8f2;
+}
+
+.wrapper-container .content-container input {
+  display: flex;
+  height: 46px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.wrapper-container .content-container button {
+  height: 46px;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #44475a;
+  color: #f8f8f2;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
