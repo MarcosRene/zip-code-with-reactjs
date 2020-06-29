@@ -30,7 +30,9 @@ $ npm install || yarn start
 # executando na porta 3000
 
 ```
-
+<p align="center">
+ <img src="https://i.ibb.co/YDP66QM/viacep.gif" alt="viacep" border="0" width="480" />
+</p>
 
 [via]: https://viacep.com.br/
 [reactjs]: https://reactjs.org/
