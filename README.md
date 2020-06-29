@@ -5,13 +5,13 @@
    <img src="https://img.shields.io/badge/react-Reactjs-blue">
 </p>
 
-### 💻 Descrição
+### :computer: Descrição
 Consumindo dados de uma api publica chamada [ViaCep][via], que permite a busca de informações tais como UF, Cidade, Lagradouro e entre outras, de qualquer código postal Brasileiro.
 
-### Tecnologia Utilizada
+### :hammer: Tecnologia Utilizada
 * [Reactjs][reactjs]
 
-### 🚀 Execução
+### :rocket: Execução
 
 ```bash
 
